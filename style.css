@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0ceebc5;
+}
+.gallery-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery-slider .slick-slide {
+    margin: 0 10px; /* Расстояние между изображениями */
+}
+.slick-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+.slick-dots {
+    position: static;
+    margin-top: 15px;
+}
